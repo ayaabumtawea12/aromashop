@@ -1,0 +1,189 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+
+.contanar{
+    width: 80%;
+    margin: auto;
+    overflow: auto;   
+}
+
+.logo,.list,.icon,.button
+{
+float: left;
+}
+.logo{
+width: 30%;
+padding-top: 20px;
+ 
+}
+.list {
+    width: 45%;
+}
+
+.list li{
+    float: left;
+    margin-right: 20px;
+     
+}
+
+.list,.icon{
+    padding-top: 30px;
+}
+.icon i {
+    margin-right: 15px;
+    padding-top: 1px;
+    color:#384aeb
+}
+
+.batton a{
+ text-transform: capitalize;
+ color: #333;
+}
+.list li a{
+    text-transform: capitalize;
+    font-size: 15px;
+    color: #333;
+}
+
+.button {
+    padding: 10px 30px;
+    border: 1px solid #384aeb;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.fa-bars{
+    display: none; 
+}
+
+ 
+
+.header-image {
+    float:left;
+    width:40%;
+    padding-top: 35px;
+}
+
+.header-image img{
+    width: 100%;
+
+}
+
+.header-content{
+    width: 60%;
+    padding-left: 80px;
+    padding-top:180px;
+    float: right;
+}
+
+.first-para{
+    margin-bottom: 20px;
+    padding-top: 40px;
+    font-size:25px;
+    color:#333;
+}
+
+.second-para{
+padding-top: 20px;
+color:#333;
+}
+
+h1{
+    margin: 20px 0px;
+}
+
+ 
+
+.header-content .button{
+    background-color: #384aeb;
+}
+
+.header-content .button a{
+    color: white;
+}
+
+.item{
+     float: left;
+    width: 32%;
+    margin-right: 10px;
+}
+.item img{
+    width: 100%;
+    padding: 90px 0px;
+}
+
+.trending{
+    margin-top: 60px;
+}
+
+.desc{
+    font-size: 17px;
+    color: #333;
+    margin-bottom: 15px;
+}
+h2{
+    margin-bottom: 20px;
+}
+
+.custm{
+
+    border-bottom:2px solid #384aeb;
+}
+h2{
+    font-size: 32px;
+}
+.product{
+float: left;
+width:25%;
+margin-bottom: 15px;
+ 
+text-align: center;
+}
+.product img{
+    width: 100%;
+    padding: 10px 4px;
+ }
+ 
+.category{
+
+    padding: 10px ;
+    color: #333;
+}
+
+h3{
+    padding-bottom:10px;
+}
+
+.price{
+    color: #384aeb;
+    font-weight: bold;
+ }
+ 
+
+
+.item img:hover  { 
+    transform:scale(1.1);
+  }
+
+ .item{
+    overflow: hidden;
+ }
+ 
+.product img:hover{
+    transform: scale(1.2);
+  }
+
+
+  .product{
+    overflow: hidden;
+  }

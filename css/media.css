@@ -1,0 +1,71 @@
+@media (max-width:930px) {
+   .navbar .contanar{
+        width: 90%;
+    }
+    .logo{
+        width: 20%;
+    }
+    
+.header-content{
+    padding:70px;
+}
+.item{
+    width: 48%;
+    margin-bottom: 10px;
+}
+
+    
+}
+
+ @media (max-width:767px)
+{
+    .fa-bars{
+        display:unset;
+    }
+    .list , .navbar .button{
+        display: none;
+
+    }
+    .logo ,.icon{
+        width:50%;
+     }
+    .icon{
+         float: right;
+    }
+    .logo{
+        float: left;
+    }
+    .header-content,.header-image{
+        float: none;
+        width: 100%;
+    }
+
+    .header-content{
+        padding: 0;
+    }
+ 
+    .item{
+        width: 48%;
+        margin-bottom: 10px;
+    }
+    .product{
+        width: 50%;
+    }
+    
+}
+
+@media (max-width:567px){
+.item{
+    float: none;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.product{
+    float: none;
+    width: 100%;
+}
+.contanar{
+    width: 95%;
+}
+}
+
